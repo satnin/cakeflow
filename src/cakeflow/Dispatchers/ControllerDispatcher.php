@@ -3,10 +3,9 @@ namespace cakeflow\Dispatchers;
 
 use cakeflow\Dispatchers\Events\Event;
 use Illuminate\Container\Container;
-use Illuminate\Routing\ControllerDispatcher;
 use Illuminate\Routing\Route;
 
-class AppControllerDispatcher extends ControllerDispatcher
+class ControllerDispatcher extends \Illuminate\Routing\ControllerDispatcher
 {
     public function __construct()
     {
