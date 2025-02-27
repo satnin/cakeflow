@@ -1,0 +1,22 @@
+{
+    "require": {
+        "php": ">=8.0",
+        "laravel/framework": "^9.0"
+    },
+    "name": "satnin/cakeflow",
+    "description": "A CakePhp-like dispatcher for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saturnin Wanonkou",
+            "email": "saturninwanonkou17@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "cakeflow\\": "src/cakeflow/"
+        }
+    }
+}
+
